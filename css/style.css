@@ -6,3 +6,48 @@ body{
     font-weight: 400px;
     font-size: 22px;
 }
+.container{
+    max-width: 1102px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 13px;
+    padding-bottom: 11px;
+}
+.header_header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+   
+}
+.logoandlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.frame_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    text-transform: uppercase;
+    padding-left: 36px;
+}
+.list_link{
+    color:  #1C202B;
+}
+.sign{
+    
+}
+.sign_sign{
+    padding-right: 28px;
+    color:#222222;
+    text-transform: uppercase;
+}
+.demo{
+    text-transform: uppercase;
+    padding: 15px 24px;
+    background-color:#0A61F7; 
+    color: #fff;
+}
